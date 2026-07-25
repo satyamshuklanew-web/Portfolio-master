@@ -13,38 +13,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I'm a <strong className="purple">Software Engineer</strong>{" "}
+              passionate about building scalable mobile and web applications
+              that solve real-world problems. Over time, I've worked across
+              different technologies and found my strength in creating
+              high-quality, user-focused products.
               <br />
               <br />
-              I’m proficient in
+              I'm proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, TypeScript, C++, Python, Node.js, React.js,
+                  React Native, Expo, and Spring Boot{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              and I enjoy working across both frontend and backend development.
               <br />
               <br />
-              My key areas of interest include developing
+              My key areas of interest include
               <i>
                 <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  {" "}Mobile Application Development, Full-Stack Development,
+                  AI-powered Applications, and System Design{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              .
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Whenever possible, I love building end-to-end projects using{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">React Native</b>,{" "}
+                <b className="purple">Node.js</b>, and modern web technologies
               </i>
+              , while continuously exploring new tools and best practices to
+              improve performance and developer experience.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,4 +60,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
