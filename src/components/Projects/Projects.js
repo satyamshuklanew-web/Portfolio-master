@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import artsumz from "../../Assets/Projects/artsumz.png";
 import weather from "../../Assets/Projects/weather.png";
 import ems from "../../Assets/Projects/ems.png";
-import split from "../../Assets/Projects/split.jpg";
+import split from "../../Assets/Projects/split.png";
 import blinkit from "../../Assets/Projects/blinkit.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -25,7 +25,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={split}
-              isBlog={false}
+              imageVariant="balanced"
               title="ExpenseTracker FE"
               description="Frontend expense tracking application focused on managing shared expenses and user-friendly budgeting flows, with direct access to the GitHub source and Android APK download."
               ghLink="https://github.com/satyamshuklanew-web/ExpenseTracker-FE"
@@ -39,7 +39,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Ramai"
-              description="Ramai is an AI-powered healthcare mobile application that helps streamline patient care through intelligent prescription generation and digital health workflows. Built using React Native (Expo), FastAPI, and OpenAI, the app focuses on delivering a seamless and user-friendly healthcare experience."
+              description="Ramai is an AI-powered healthcare mobile application that helps streamline patient care. Built using React Native (Expo), FastAPI, and OpenAI, the app focuses on delivering a seamless and user-friendly healthcare experience."
               demoLink="https://play.google.com/store/apps/details?id=com.ramai2025.omvad&hl=en_IN"
               demoText="Download"
             />

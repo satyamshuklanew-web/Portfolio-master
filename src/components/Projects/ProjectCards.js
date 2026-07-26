@@ -7,12 +7,18 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <div className="project-image-frame">
+      <div
+        className={`project-image-frame ${
+          props.imageVariant === "balanced" ? "project-image-frame-balanced" : ""
+        }`}
+      >
         <Card.Img
           variant="top"
           src={props.imgPath}
           alt="card-img"
-          className="project-card-image"
+          className={`project-card-image ${
+            props.imageVariant === "balanced" ? "project-card-image-balanced" : ""
+          }`}
         />
       </div>
       <Card.Body>

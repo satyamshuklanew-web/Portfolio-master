@@ -528,6 +528,14 @@ button:focus {
   border-radius: 10px !important;
 }
 
+.project-image-frame-balanced {
+  padding: 20px 20px 8px;
+}
+
+.project-card-image-balanced {
+  transform: scale(1.08);
+}
+
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
