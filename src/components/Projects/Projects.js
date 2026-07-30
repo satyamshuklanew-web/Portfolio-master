@@ -8,6 +8,7 @@ import ems from "../../Assets/Projects/ems.png";
 import split from "../../Assets/Projects/split.png";
 import blinkit from "../../Assets/Projects/blinkit.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import assetsStudio from "../../Assets/Projects/asset-studio.png";
 
 function Projects() {
   return (
@@ -39,9 +40,21 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Ramai"
-              description="Ramai is an AI-powered healthcare mobile application that helps streamline patient care. Built using React Native (Expo), FastAPI, and OpenAI, the app focuses on delivering a seamless and user-friendly healthcare experience."
+              description="Ramai is an AI-powered healthcare mobile application that helps streamline patient care. Built using React Native (Expo), FastAPI, and OpenAI, it focuses on delivering user-friendly healthcare experience."
               demoLink="https://play.google.com/store/apps/details?id=com.ramai2025.omvad&hl=en_IN"
               demoText="Download"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={assetsStudio}
+              isBlog={false}
+              title="Assets Studio"
+              description="An asset-focused web workspace for preparing Android app assets, including launcher icons, splash assets, adaptive layers, feature graphics, and WebP outputs in a client-side toolset."
+              ghLink="https://github.com/satyamshuklanew-web/Portfolio-master"
+              demoLink="https://assetsstudio.netlify.app/"
+              demoText="Demo"
             />
           </Col>
 
@@ -62,6 +75,8 @@ function Projects() {
               title="Article Summariser"
               description="A web application focused on summarizing article-heavy pages for faster reading and better understanding through a cleaner content consumption flow."
               ghLink="https://github.com/Satyam070/ArticleSummariser"
+              demoLink="https://article-summariser-weld.vercel.app/login"
+              demoText="Demo"
             />
           </Col>
 
