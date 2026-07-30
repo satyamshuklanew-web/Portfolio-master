@@ -52,7 +52,7 @@ function Projects() {
               isBlog={false}
               title="Assets Studio"
               description="An asset-focused web workspace for preparing Android app assets, including launcher icons, splash assets, adaptive layers, feature graphics, and WebP outputs in a client-side toolset."
-              ghLink="https://github.com/satyamshuklanew-web/Portfolio-master"
+              ghLink="https://github.com/satyamshuklanew-web/adaptive-icon-website"
               demoLink="https://assetsstudio.netlify.app/"
               demoText="Demo"
             />
